@@ -48,7 +48,7 @@ docker-compose up
      - `file` (тип: `file`): Файл с данными объявления.
    - **Пример запроса:**
      ```bash
-     curl -X POST -F "file=@/path/to/file.txt" http://localhost:5000/api/ad/upload
+     curl -X POST -F "file=@/path/to/file.txt" http://localhost:8080/api/ad/upload
      ```
    - **Пример ответа:**
      ```bash
